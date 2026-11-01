@@ -1,0 +1,26 @@
+:root {
+  --fundo: #1e1510;
+  --cartao: #2c1f17;
+  --borda: #4a3628;
+  --texto: #f3e9dc;
+  --suave: #b9a793;
+  --alerta: #f2b880;
+  --botao: #000000;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 18px;
+}
+button, input, select { font: inherit; }
+.botao {
+  min-height: 64px; border-radius: 14px; border: 1px solid #5a4433;
+  background: var(--botao); color: #fff; font-weight: 700; padding: 0 20px; cursor: pointer;
+}
+.campo {
+  min-height: 56px; border-radius: 12px; border: 1px solid #5a4433;
+  background: var(--cartao); color: var(--texto); padding: 0 14px; width: 100%;
+}
